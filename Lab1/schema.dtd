@@ -1,0 +1,13 @@
+<!ELEMENT Shop (ProductCategories)>
+<!ELEMENT ProductCategories (ProductCategory*)>
+<!ELEMENT ProductCategory (categoryName, Products)>
+<!ELEMENT Products (Product*)>
+<!ELEMENT Product (name, price, amount)>
+
+<!ELEMENT categoryName (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+
+<!ATTLIST ProductCategory id CDATA #REQUIRED>
+<!ATTLIST Product id CDATA #REQUIRED>

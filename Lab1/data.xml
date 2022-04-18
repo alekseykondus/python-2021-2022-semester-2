@@ -1,0 +1,27 @@
+<Shop>
+  <ProductCategories>
+    <ProductCategory categoryId="1" categoryName="Category1">
+      <Products>
+        <Product id="2" name="Product2" price="59.56" amount="60"/>
+        <Product id="1" name="Product1" price="100.12" amount="50"/>
+      </Products>
+    </ProductCategory>
+    <ProductCategory categoryId="2" categoryName="Category2">
+      <Products>
+        <Product id="4" name="Product4" price="89.78" amount="80"/>
+        <Product id="3" name="Product3" price="78.33" amount="70"/>
+      </Products>
+    </ProductCategory>
+    <ProductCategory categoryId="3" categoryName="Category3">
+      <Products>
+        <Product id="6" name="Product6" price="34.75" amount="120"/>
+        <Product id="5" name="Product5" price="12.67" amount="90"/>
+      </Products>
+    </ProductCategory>
+    <ProductCategory categoryId="4" categoryName="Cat312">
+      <Products>
+        <Product id="7" name="Product7" price="23.89" amount="777"/>
+      </Products>
+    </ProductCategory>
+  </ProductCategories>
+</Shop>
